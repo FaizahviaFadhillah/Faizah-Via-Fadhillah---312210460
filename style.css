@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #2b2d42, #8d3da8);
+    ; /* Gradien biru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    border: none;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih halus */
+    border-radius: 20px; /* Sudut lebih membulat */
+    background: linear-gradient(to bottom right, #00c6ff, #ff73ff); /* Latar belakang putih */
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px;
+    margin-top: -250px;
+    position: absolute;
+    left: 5px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-picture {
+        width: 150px;
+        height: 200px; 
+        border-radius: 150%; 
+        margin: 10px 0;
+        object-fit: cover;
+        border: 4px solid #02468f; /* Border biru */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan pada foto */
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #02468f;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(2, 70, 143, 0.8); /* Efek glow */
+}
+
+.student-id {
+    font-size: 18px;
+    color: #f1f1f1; /* Warna teks abu-abu lembut */
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif; /* Gunakan font baru */
+    font-weight: 400; /* Font reguler */
+    letter-spacing: 0.5px;
+}
+
+.contact-section {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px dashed #ddd; /* Garis pemisah */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #e9f5ff, #d0ebff); /* Gradien biru muda */
+    color: #007BFF; /* Teks biru */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan untuk elemen */
+    transition: transform 0.3s, background-color 0.3s; /* Transisi untuk efek hover */
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-item:hover {
+    background: #b3daff; /* Warna hover */
+    transform: translateY(-5px); /* Efek melayang */
+}
+
+.contact-button {
+    text-decoration: none;
+    background: linear-gradient(to right, #f9f9f9, #eaeaea); /* Gradien abu-abu terang */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    margin-top: 10px;
+}
+
+.contact-button:hover {
+    background: linear-gradient(to right, #e0e0e0, #d6d6d6); /* Gradien lebih gelap saat hover */
+    transform: translateY(-3px); /* Sedikit melayang */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Bayangan lebih intens saat hover */
+}
+.contact-button i {
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+    font-size: 16px; /* Ukuran ikon */
+    vertical-align: middle; /* Selaraskan ikon dengan teks */
+}
+
